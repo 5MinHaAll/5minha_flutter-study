@@ -141,7 +141,12 @@ class MembersPage extends StatelessWidget {
               ),
             );
           } else if (index == 1) {
-            Navigator.pop(context);
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const MembersPage(),
+              ),
+            );
           } else if (index == 2) {
             Navigator.pushReplacement(
               context,

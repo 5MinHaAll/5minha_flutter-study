@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'links.dart';
+import 'members.dart';
 
 class RulesPage extends StatelessWidget {
   const RulesPage({super.key});
@@ -115,13 +116,13 @@ class RulesPage extends StatelessWidget {
             label: '링크',
           ),
         ],
-        currentIndex: 1, // 현재 페이지에 따라 값이 달라짐
+        currentIndex: 2,
         selectedItemColor: Colors.pink,
         unselectedItemColor: Colors.grey,
-        showUnselectedLabels: true, // 선택되지 않은 라벨도 표시
-        type: BottomNavigationBarType.fixed, // 고정 타입으로 설정
-        backgroundColor: Colors.white, // 배경색 설정
-        elevation: 8, // 그림자 효과
+        showUnselectedLabels: true,
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
+        elevation: 8,
         onTap: (index) {
           if (index == 0) {
             Navigator.pushReplacement(
@@ -131,7 +132,12 @@ class RulesPage extends StatelessWidget {
               ),
             );
           } else if (index == 1) {
-            Navigator.pop(context);
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const MembersPage(),
+              ),
+            );
           } else if (index == 2) {
             Navigator.pushReplacement(
               context,
