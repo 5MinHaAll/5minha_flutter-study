@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/doyeon/team_intro/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/doyeon/team_intro/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/doyeon/team_intro/build" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/kunho/team_intro/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/kunho/team_intro/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/kunho/team_intro/build" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/yunggune/new_team_introduction/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/yunggune/new_team_introduction/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/yunggune/new_team_introduction/build" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/yunha/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/yunha/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_1/yunha/build" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/team_intro_2/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
