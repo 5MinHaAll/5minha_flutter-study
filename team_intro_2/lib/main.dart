@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'members_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -68,7 +70,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 foregroundColor: Theme.of(context).colorScheme.onPrimary,
                 padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => membersPage()),
+                );
+              },
               child: const Text(
                 '알겠다구',
                 style: TextStyle(fontSize: 20),
