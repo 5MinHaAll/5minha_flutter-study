@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'members_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -68,7 +70,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 foregroundColor: Theme.of(context).colorScheme.onPrimary,
                 padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               ),
+<<<<<<< HEAD
               onPressed: () {},
+=======
+              onPressed: () {
+<<<<<<< HEAD
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => membersPage()),
+=======
+                Navigator.of(context).push(    // 자식 화면으로 이동하기 위한 전형적인 코드
+                  MaterialPageRoute(builder: (_) => TeamIntroductionApp(title : "오늘도 민첩한 하루 되세요.")),
+>>>>>>> main
+                );
+              },
+>>>>>>> e538136fafeb288b06bc079cd953878bc79fefba
               child: const Text(
                 '알겠다구',
                 style: TextStyle(fontSize: 20),
