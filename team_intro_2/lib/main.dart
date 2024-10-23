@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:team_intro/members.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,6 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),  // 개별 스타일 지정 제거
       ),
+
       body: Container(
         width: double.infinity,
         height: double.infinity,
@@ -68,7 +70,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 foregroundColor: Theme.of(context).colorScheme.onPrimary,
                 padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(
+                MaterialPageRoute(builder: (_)=> Members(),)
+                );
+              },
               child: const Text(
                 '알겠다구',
                 style: TextStyle(fontSize: 20),
